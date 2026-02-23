@@ -1,0 +1,14 @@
+# Local terraform directory (contains binaries/plugins)
+.terraform/
+
+# State files (contain sensitive data and shouldn't be in Git)
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Crash logs
+crash.log
+
+# Variables files (if they contain secrets)
+*.tfvars
+*.tfvars.json
